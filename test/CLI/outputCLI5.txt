@@ -1,0 +1,5 @@
+Skor maksimum: 62
+Token yang dikunjungi: 7A 1C 7A 1C 1C 7A
+Jalur dengan skor maksimum: [(1, 1), (1, 2), (3, 2), (3, 6), (6, 6), (6, 1)]
+
+Waktu eksekusi program: 834.1474533081055 ms

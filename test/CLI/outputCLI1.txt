@@ -1,0 +1,5 @@
+Skor maksimum: 64
+Token yang dikunjungi: BD E9 7A 1C 55 55 55
+Jalur dengan skor maksimum: [(1, 1), (1, 2), (2, 2), (2, 3), (6, 3), (6, 4), (1, 4)]
+
+Waktu eksekusi program: 987.0202541351318 ms

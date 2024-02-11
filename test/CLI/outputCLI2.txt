@@ -1,0 +1,5 @@
+Skor maksimum: 117
+Token yang dikunjungi: 55 1C FF 55 BD 55
+Jalur dengan skor maksimum: [(4, 1), (4, 2), (6, 2), (6, 5), (2, 5), (2, 1)]
+
+Waktu eksekusi program: 287.54615783691406 ms
