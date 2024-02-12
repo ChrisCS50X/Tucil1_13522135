@@ -233,7 +233,7 @@ def run_program_file():
     with open(file_name, 'r') as f:
         buffer_size = int(f.readline().strip())
         if buffer_size == 0:
-            print("No solution : Tidak ada ukuran buffer")
+            messagebox.showerror("No solution : Tidak ada ukuran buffer")
             return
         rows, cols = map(int, f.readline().split())
         code_matrix = []
