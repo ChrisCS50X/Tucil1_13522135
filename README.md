@@ -6,13 +6,10 @@
 ## Table of Contents
 
 - [Deskripsi Permasalahan](#Deksripsi-Permasalahan)
-- [Anggota Kelompok](#Anggota-Kelompok)
-- [Fitur](#Fitur)
-- [Libraries Yang Digunakan](#Libraries-Yang-Digunakan)
-- [Cara Menggunakan](#Cara-Menggunakan)
-- [Screenshot](#Screenshot)
+- [Syarat Dan Instalasi](#Syarat-Dan-Instalasi)
+- [Cara Menjalankan Program](#Cara-Menjalankan-Program)
+- [Identitas](#Identitas)
 - [Project Status](#project-status)
-- [Acknowledgements](#acknowledgements)
 
 ## Deskripsi Permasalahan
 
