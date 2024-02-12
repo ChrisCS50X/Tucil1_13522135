@@ -126,6 +126,9 @@ def generate_paths(buffer_size, code_matrix):
     
 
 def run_program_keyboard():
+    # Fungsi ini digunakan untuk menjalankan program dengan input dari keyboard.
+    
+    # Membuat entry untuk input
     num_token_types_entry = tk.Entry(root)
     num_token_types_entry.pack()
 
@@ -144,7 +147,6 @@ def run_program_keyboard():
     max_sequence_length_entry = tk.Entry(root)
     max_sequence_length_entry.pack()
 
-    # Create a new submit button to process the input
     submit_button = tk.Button(root, text="Submit", command=lambda: process_input(num_token_types_entry, token_types_entry, buffer_size_entry, rows_cols_entry, num_sequences_entry, max_sequence_length_entry))
     submit_button.pack()
 
@@ -153,6 +155,8 @@ def run_program_keyboard():
     run_file_button.pack_forget()
 
 def process_input(num_token_types_entry, token_types_entry, buffer_size_entry, rows_cols_entry, num_sequences_entry, max_sequence_length_entry):   
+    # Fungsi ini digunakan untuk memproses input dari keyboard dengan parameter num_token_types_entry (jumlah tipe token), token_types_entry (tipe token), buffer_size_entry (ukuran buffer), 
+    # row cols_entry (baris kolom), num_sequences_entry (jumlah sequence), dan max_sequence_length_entry (panjang maksimum sequence).
     output_text = tk.Text(root)
     output_text.pack()
 
@@ -168,7 +172,7 @@ def process_input(num_token_types_entry, token_types_entry, buffer_size_entry, r
             return
         rows, cols = map(int, rows_cols_entry.get().split())
 
-        # Generate a random matrix
+        # Menghasilkan matriks kode acak
         code_matrix = [[int(random.choice(token_types), 16) for _ in range(cols)] for _ in range(rows)]
         code_matrix = np.array(code_matrix)
 
@@ -180,9 +184,9 @@ def process_input(num_token_types_entry, token_types_entry, buffer_size_entry, r
         max_sequence_length = int(max_sequence_length_entry.get())
         sequences = []
         for _ in range(num_sequences):
-            # Generate a random sequence length up to the maximum
+            # Menghasilkan panjang sequence acak
             sequence_length = random.randint(1, max_sequence_length)
-            # Generate a random sequence and a random score
+            # Menghasilkan sequence acak
             sequence = [int(random.choice(token_types), 16) for _ in range(sequence_length)]
             score = random.randint(10, 50)
             sequences.append((sequence, score))
@@ -292,7 +296,7 @@ title_label.pack(pady=10)
 
 change_label_color()
 
-# Create the initial buttons
+# Menambahkan tombol untuk menjalankan program
 run_keyboard_button = tk.Button(root, text="Run from Keyboard", command=run_program_keyboard)
 run_keyboard_button.pack(pady=10)
 
