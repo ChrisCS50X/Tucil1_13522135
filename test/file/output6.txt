@@ -1,1 +1,1 @@
-Error : Tidak ada ukuran buffer
+No solution : tidak ada buffer

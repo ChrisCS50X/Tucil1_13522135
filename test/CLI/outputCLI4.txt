@@ -1,5 +1,14 @@
+Matrix yang terbuat:
+1C 7A
+Sekuens beserta skor yang terbuat:
+Sequence: 7A 55 55, Score: 28
+Sequence: E9 55 BD, Score: 42
+Sequence: E9 7A, Score: 49
+Sequence: 1C, Score: 39
+Sequence: FF 1C, Score: 45
 Skor maksimum: 0
 Tidak ada token yang dikunjungi
 Tidak ada jalur yang mencapai skor maksimum
 
 Waktu eksekusi program: 0.0 ms
+

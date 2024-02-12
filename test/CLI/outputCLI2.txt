@@ -1,5 +1,19 @@
-Skor maksimum: 117
-Token yang dikunjungi: 55 1C FF 55 BD 55
-Jalur dengan skor maksimum: [(4, 1), (4, 2), (6, 2), (6, 5), (2, 5), (2, 1)]
+Matrix yang terbuat:
+7A E9 55 FF FF BD
+FF 55 E9 1C 7A 55
+BD E9 1C BD 1C 1C
+7A 1C 1C FF 1C 7A
+55 E9 E9 FF BD BD
+FF BD BD 1C 1C 1C
+Sekuens beserta skor yang terbuat:
+Sequence: FF, Score: 20
+Sequence: 7A FF E9 FF, Score: 41
+Sequence: 1C 7A, Score: 43
+Sequence: BD, Score: 22
+Sequence: 7A, Score: 45
+Skor maksimum: 130
+Token yang dikunjungi: 7A FF 55 1C 7A BD
+Jalur dengan skor maksimum: [(1, 1), (1, 2), (2, 2), (2, 4), (1, 4), (1, 3)]
 
-Waktu eksekusi program: 287.54615783691406 ms
+Waktu eksekusi program: 292.17529296875 ms
+
