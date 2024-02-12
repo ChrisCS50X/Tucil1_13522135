@@ -31,7 +31,8 @@ setiap kombinasi matriks, sekuens, dan ukuran buffer dengan menggunakan algoritm
 
 ## Cara Menjalankan Program
     git clone https://github.com/ChrisCS50X/Tucil1_13522135 
-    cd Tucil1_13522135/src
+    cd Tucil1_13522135
+    cd src
     python solverwithGUI.py
 
 ## Identitas
