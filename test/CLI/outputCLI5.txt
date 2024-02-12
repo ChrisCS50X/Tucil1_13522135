@@ -1,1 +1,1 @@
-Tipe token tidak sesuai dengan jumlah tipe token
+Banyak masukan tipe token tidak sesuai dengan jumlah tipe token

@@ -1,19 +1,25 @@
 Matrix yang terbuat:
-7A E9 55 FF FF BD
-FF 55 E9 1C 7A 55
-BD E9 1C BD 1C 1C
-7A 1C 1C FF 1C 7A
-55 E9 E9 FF BD BD
-FF BD BD 1C 1C 1C
+FF E9 BD 1C BD 1C
+7A E9 7A 55 BD BD
+FF FF 1C 7A 55 BD
+7A 7A 55 7A E9 55
+E9 BD FF 1C 1C 1C
+1C BD E9 BD 1C 55
 Sekuens beserta skor yang terbuat:
-Sequence: FF, Score: 20
-Sequence: 7A FF E9 FF, Score: 41
-Sequence: 1C 7A, Score: 43
-Sequence: BD, Score: 22
-Sequence: 7A, Score: 45
-Skor maksimum: 130
-Token yang dikunjungi: 7A FF 55 1C 7A BD
-Jalur dengan skor maksimum: [(1, 1), (1, 2), (2, 2), (2, 4), (1, 4), (1, 3)]
+Sekuens: FF E9 55, Score: 35
+Sekuens: 7A 1C, Score: 32
+Sekuens: 7A FF FF 7A, Score: 50
+Sekuens: E9 FF BD, Score: 48
+Sekuens: 55, Score: 26
+Skor maksimum: 106
+Token yang dikunjungi: E9 FF BD 55 7A 1C
+Jalur dengan skor maksimum:
+2, 1
+2, 3
+6, 3
+6, 4
+1, 4
+1, 6
 
-Waktu eksekusi program: 292.17529296875 ms
+Waktu eksekusi program: 280.81202507019043 ms
 

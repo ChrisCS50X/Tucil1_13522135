@@ -1,5 +1,11 @@
 Skor maksimum: 32
 Token yang dikunjungi: 55 FF FF FF 7A
-Jalur dengan skor maksimum: [(1, 1), (1, 5), (4, 5), (4, 1), (6, 1)]
+Jalur dengan skor maksimum:
+1, 1
+1, 5
+4, 5
+4, 1
+6, 1
 
-Waktu eksekusi program: 68.74275207519531 ms
+Waktu eksekusi program: 33.54310989379883 ms
+

@@ -2,4 +2,5 @@ Skor maksimum: 0
 Tidak ada token yang dikunjungi
 Tidak ada jalur yang mencapai skor maksimum
 
-Waktu eksekusi program: 977.1747589111328 ms
+Waktu eksekusi program: 1051.9211292266846 ms
+
